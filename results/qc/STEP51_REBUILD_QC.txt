@@ -1,0 +1,17 @@
+STEP51 WUI-Z KETCHPAW GT50 REBUILD QC
+step=STEP51_WUIZ_KETCHPAW_GT50_REBUILD
+status=WUIZ_KETCHPAW_GT50_REBUILD_COMPLETE
+parent_run=<PROJECT_ROOT>/step49_patch75_national49_500m_20260730T032000Z
+protocol=DENSITY_GT_6_17;INTERMIX_LOCAL_V_GT_50_PERCENT;INTERFACE_LOCAL_V_LE_50_PERCENT_AND_DISTANCE_LE_2400M;PATCH_VEGETATION_FRACTION_GT_75_PERCENT;PATCH_AREA_GE_5_KM2
+state_units=49
+state_pass=49
+changed_pixels=688910
+changed_area_km2=620.0189999999999
+intermix_to_interface_pixels=456638
+intermix_to_nonwui_pixels=232272
+net_wui_area_change_km2=-209.0448
+unexpected_transition_pixels=0
+wui_p_rebuilt=False
+wui_s_rebuilt=False
+environment_modified=False
+completed_utc=2026-07-31T22:11:01Z

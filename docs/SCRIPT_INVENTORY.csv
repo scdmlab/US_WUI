@@ -1,0 +1,43 @@
+repository_role,script,stage,status,notes
+configuration,scripts/repo_config.py,shared path configuration,core,Loads local roots from config/paths.json or WUI_CONFIG_FILE
+configuration,scripts/check_configuration.py,configuration check,support,Prints configured roots and reports whether they exist
+support,scripts/08_recompute_sample4_ps_population.py,population helper,retained,Imported by final downstream scripts
+support,scripts/19D_rebuild_texas_wui_p_candidate_rasters.py,Texas audit support,retained,Referenced by Step41 provenance audit
+support,scripts/25_audit_vermont_wuis_exact_point_in_polygon.py,point-in-polygon helper,retained,Imported by final downstream scripts
+support,scripts/35_recompute_five_state_all_buffer_population.py,population lineage,retained,Referenced by Step44 and Step50A
+support,scripts/36_national_sensitivity_area_final_audit.py,area lineage,retained,Referenced by Step44
+audit,scripts/41_wuip_source_dedup_nodata_impact_audit.py,WUI-P source and NoData audit,retained,Establishes source and NoData evidence
+audit,scripts/42a_manuscript_source_policy_inventory.py,WUI-P policy audit,retained,Manuscript and source-policy crosswalk
+audit,scripts/42b_five_state_address_identity_policy_audit.py,WUI-P duplicate audit,retained,Separates duplicates from legitimate colocation
+audit,scripts/42c_finalize_address_policy_audit.py,WUI-P policy decision,retained,Finalizes address-only P2 policy
+production,scripts/43a_prepare_p2_formal_rebuild.py,WUI-P P2 preparation,core,Preflight and input freeze
+production,scripts/43a_repair_step42_canary_input_freeze.py,WUI-P P2 preparation,core,Canary-input freeze repair
+production,scripts/43b_run_p2_formal_rebuild.py,WUI-P P2 classification,core,Address-only exact-record-dedup classification
+production,scripts/43c_finalize_p2_formal_rebuild.py,WUI-P P2 finalization,core,QC and formal output inventory
+metrics,scripts/44_wuip_p2_downstream_metrics.py,P2 downstream metrics,core,Area population and county metrics
+metrics,scripts/44b_appendix_a2_p2_structure_counts.py,Appendix A2,core,Source-feature counts
+spatial,scripts/45c_p2_formal_moran_py310_compatibility.py,Moran compatibility,core,Frozen esda 2.7 two-sided protocol
+spatial,scripts/46_wuiz_pairwise_intersection_jaccard_completion.py,pairwise agreement,core,Common-valid-domain intersection and Jaccard
+production,scripts/47_patch75_silvis_colorado_canary.py,strict patch canary,core,Colorado 500 m qualifying-patch test
+production,scripts/47b_patch75_colorado_remaining_radii.py,strict patch sensitivity,core,Colorado remaining radii
+production,scripts/47c_patch75_colorado_wuiz.py,strict WUI-Z canary,core,Colorado WUI-Z companion product
+production,scripts/47d_patch75_four_state_psz.py,strict patch five-state production,core,Four remaining focus states
+production,scripts/47d_finalize_four_state_psz.py,strict patch finalization,core,Focus-state QC
+metrics,scripts/48a_patch75_five_state_downstream_metrics.py,five-state strict metrics,core,Area population county and pairwise inputs
+spatial,scripts/48b_patch75_moran_figures_tables.py,five-state strict spatial analysis,core,Moran and Appendix candidates
+production,scripts/49_single_state_patch75_500m.py,national strict production,core,One-state 500 m worker
+production,scripts/49_patch75_remaining44_500m.py,national strict production,core,Remaining-state dispatcher
+production,scripts/49_merge_national49_patch75_500m.py,national strict merge,core,Merges 49 reporting units
+metrics,scripts/50a_patch75_national49_metrics.py,national strict downstream metrics,core,Area population and county metrics
+spatial,scripts/50b_patch75_national49_moran_appendix.py,national strict Moran and Appendix,core,Global Local FDR and tables
+production,scripts/51_wuiz_ketchpaw_gt50_rebuild.py,final WUI-Z boundary rebuild,final,Authoritative WUI-Z >50/<=50 product
+metrics,scripts/51a_wuiz_gt50_downstream_metrics.py,final WUI-Z metrics,final,Authoritative area population and county update
+spatial,scripts/51b_wuiz_gt50_pairwise.py,final pairwise agreement,final,Authoritative Step51 Jaccard update
+spatial,scripts/51c_wuiz_gt50_moran_appendix.py,final Moran and Appendix,final,Authoritative Step51 Moran and A1-A6 tables
+figure,scripts/52_rebuild_methodology_figures.py,method figures,retained,Manuscript method figures
+figure,scripts/53_generate_results_figure4.py,results Figure 4,retained,National mean summary
+figure,scripts/53_generate_step51_appendix_latex.py,Appendix LaTeX,retained,Formats Step51 tables for manuscript
+figure,scripts/54_generate_results_figures5_9.py,results Figures 5 and 9,retained,Census-division and Jaccard figures
+figure,scripts/55_generate_results_figures3_6_7_8.py,results Figures 3 6 7 and 8,retained,National focus-state and sensitivity figures
+figure,scripts/56_generate_figure6_legacy_layout_final.py,results Figure 6,retained,Final five-state map layout
+legacy_reference,scripts/legacy_reference/09_analyze_wui_p_raster_fast.py,Step43 provenance,legacy_only,Frozen reference only; not the final address-policy definition

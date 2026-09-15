@@ -1,0 +1,11 @@
+STEP51C KETCHPAW GT50 NATIONAL49 FINAL QC
+status=KETCHPAW_GT50_NATIONAL49_DOWNSTREAM_COMPLETE
+combinations=245
+eligible=174
+excluded_or_undefined=71
+global_two_run_exact=True
+local_two_run_exact=True
+local_array_hash_two_run_exact=True
+full_design_rows={'A1': 252, 'A2': 198, 'A3': 252, 'A4': 450, 'A5': 297, 'A6': 297}
+frozen_weights_rebuilt=False
+environment_modified=False

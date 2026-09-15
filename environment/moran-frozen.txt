@@ -1,0 +1,12 @@
+# PYTHON310_ESDA270_FROZEN_COMPATIBILITY_PROTOCOL; Python 3.10.19
+numpy==2.2.6
+scipy==1.15.2
+pandas==2.3.3
+geopandas==1.1.2
+shapely==2.1.2
+rasterio==1.4.3
+matplotlib==3.10.8
+libpysal==4.13.0
+esda==2.7.0
+# numba intentionally not installed; pure-Python fallback was used
+

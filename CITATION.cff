@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software in published work, please cite the associated
+  manuscript and this software repository.
+title: CONUS WUI Mapping with Structure-Location Data
+type: software
+license: GPL-3.0-only
+authors:
+  - family-names: Zhang
+    given-names: Hongbo
+  - family-names: Huang
+    given-names: Yanhong
+  - family-names: Beene
+    given-names: Daniel
+  - family-names: Lin
+    given-names: Yan
+  - family-names: Gong
+    given-names: Xi
+  - family-names: Huang
+    given-names: Qunying
+keywords:
+  - wildland-urban interface
+  - WUI
+  - OpenAddresses
+  - building footprints
+  - spatial analysis
+

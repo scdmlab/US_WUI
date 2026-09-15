@@ -1,0 +1,12 @@
+STEP51A WUI-Z GT50 DOWNSTREAM METRICS QC
+state_units=49
+state_pass=49
+population_rows=147
+area_rows=147
+county_rows=9327
+county_unique_fips=3109
+population_closure_max_abs=7.451e-09
+population_ps_exact=True
+area_ps_exact=True
+county_ps_exact=True
+final_status=WUIZ_GT50_METRICS_COMPLETE_READY_FOR_PAIRWISE_MORAN

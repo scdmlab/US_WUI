@@ -1,0 +1,11 @@
+metric,previous_value,ketchpaw_gt50_value,change
+WUI-Z area km2,761338.7568,761129.7120,-209.0448
+WUI-Z population,97307834,97266925,-40909
+WUI-Z population share pct,29.553438335728,29.541013831356,-0.012424504372
+P/S micro Jaccard,0.619997125555496,0.619997125555496,0
+P/Z micro Jaccard,0.396648364903671,0.396657550737260,0.000009185833589
+S/Z micro Jaccard,0.416215016902405,0.416216665473144,0.000001648570739
+Global Moran significant positive combinations,164,164,0
+Global Moran non-significant eligible combinations,10,10,0
+Local Moran FDR significant observations,1554,1555,1
+Local Moran FDR LL observations,871,872,1

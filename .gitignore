@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and local settings
+.env
+.env.*
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# Large geospatial and archive files
+*.tif
+*.tiff
+*.vrt
+*.gpkg
+*.gdb/
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.fgb
+*.parquet
+*.feather
+*.npz
+*.npy
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Raw or intermediate data directories
+data/raw/
+data/intermediate/
+outputs/
+scratch/
+tmp/
+logs/
+
+# Local path configuration
+config/paths.json
+
+# Operating-system files
+.DS_Store
+Thumbs.db

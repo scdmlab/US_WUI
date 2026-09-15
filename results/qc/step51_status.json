@@ -1,0 +1,64 @@
+{
+  "step": "STEP51_WUIZ_KETCHPAW_GT50_NATIONAL_REBUILD_AND_DOWNSTREAM",
+  "status": "WUIZ_KETCHPAW_GT50_NATIONAL49_COMPLETE",
+  "completed_utc": "2026-07-31T22:47:28Z",
+  "classification_boundary": {
+    "intermix_local_vegetation": ">50%",
+    "interface_local_vegetation": "<=50%",
+    "interface_distance": "<=2.4 km",
+    "qualifying_patch_area": ">=5 km2",
+    "qualifying_patch_wildland_share": ">75% of total valid land"
+  },
+  "audit": {
+    "state_units": 49,
+    "state_pass": 49,
+    "exact_50_blocks": 17305,
+    "exact_50_dense_blocks": 6759,
+    "expected_intermix_to_interface_blocks": 4791,
+    "expected_intermix_to_nonwui_blocks": 1968
+  },
+  "raster_impact": {
+    "changed_pixels": 688910,
+    "intermix_to_interface_pixels": 456638,
+    "intermix_to_nonwui_pixels": 232272,
+    "unexpected_transition_pixels": 0,
+    "net_wuiz_area_change_km2": -209.0448
+  },
+  "national_wuiz": {
+    "area_km2": 761129.712,
+    "population": 97266925,
+    "population_share_pct": 29.541013831356
+  },
+  "national_micro_jaccard": {
+    "WUI-P/WUI-S": 0.619997125555,
+    "WUI-P/WUI-Z": 0.396657550737,
+    "WUI-S/WUI-Z": 0.416216665473
+  },
+  "moran": {
+    "candidate_combinations": 245,
+    "eligible_combinations": 174,
+    "global_positive_significant": 164,
+    "global_not_significant": 10,
+    "local_fdr_significant": 1555,
+    "global_two_run_exact": true,
+    "local_two_run_exact": true,
+    "local_array_hash_two_run_exact": true
+  },
+  "appendix_full_design_rows": {
+    "A1": 252,
+    "A2": 198,
+    "A3": 252,
+    "A4": 450,
+    "A5": 297,
+    "A6": 297,
+    "total": 1746
+  },
+  "scope_controls": {
+    "wui_p_rebuilt": false,
+    "wui_s_rebuilt": false,
+    "weights_rebuilt": false,
+    "environment_modified": false,
+    "paper_modified": false
+  },
+  "qc": "PASS"
+}

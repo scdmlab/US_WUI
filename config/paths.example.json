@@ -1,0 +1,23 @@
+{
+  "project": {
+    "root": "."
+  },
+  "data": {
+    "root": "/path/to/external_data/WUI_Hongbo"
+  },
+  "legacy": {
+    "root": "/path/to/legacy_project_files"
+  },
+  "attachments": {
+    "root": "/path/to/optional_manuscript_attachments"
+  },
+  "researchdrive": {
+    "root": "/path/to/research_drive"
+  },
+  "software": {
+    "root": "/path/to/conda_or_python_environment"
+  },
+  "temp": {
+    "root": "/path/to/temporary_directory"
+  }
+}
